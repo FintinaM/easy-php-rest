@@ -3,7 +3,7 @@ namespace EasyPhpRest\Composer;
 
 class PostInstall
 {
- public function createDir()
+ public static function createDir()
  {
      mkdir(__DIR__.'/test', 0755);
  }

@@ -16,7 +16,7 @@
   "require": {},
   "scripts": {
     "post-package-install": [
-      "EasyPhpRest\\Composer::createDir"
+      "EasyPhpRest\\Composer\\PostInstall::createDir"
     ]
   }
 }
