@@ -15,7 +15,7 @@
   },
   "require": {},
   "scripts": {
-    "post-package-install": [
+    "post-install-cmd": [
       "EasyPhpRest\\Composer\\PostInstall::createDir"
     ]
   }
