@@ -1,0 +1,17 @@
+{
+  "name": "mfintina/easy-php-rest",
+  "description": "A simple package for creating a REST api on the go.",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Fintina Madalin",
+      "email": "fintina.bogdan@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {"EasyPhpRest": "src/"}
+  },
+  "require": {}
+}
