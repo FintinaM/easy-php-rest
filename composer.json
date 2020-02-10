@@ -15,8 +15,6 @@
   },
   "require": {},
   "scripts": {
-    "post-install-cmd": [
-      "EasyPhpRest\\Composer\\PostInstall::createDir"
-    ]
+    "post-install-cmd": "touch hteassasa.txt"
   }
 }
