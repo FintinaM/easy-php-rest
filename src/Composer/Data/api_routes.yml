@@ -1,0 +1,12 @@
+routes:
+  ##########################################################
+  ## Below you have the example of a route configuration ##
+  ########################################################
+  test_route: #route name (it must be unique in this file)
+    action: 'TestController::hello' #controller class and action name # REQUIRED
+    path: '/hello' #path # REQUIRED
+    methods: # if not specified all methods will be available for that endpoint
+      - 'GET'
+      - 'POST'
+    defaults: # if not specified the Router will treat all parameters in the function contructor as required and will throw an error if they are not specified
+      - who: 'World' # key value pair for parameters in constructor

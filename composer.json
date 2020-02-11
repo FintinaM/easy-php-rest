@@ -13,8 +13,5 @@
   "autoload": {
     "psr-4": {"EasyPhpRest\\": "src/"}
   },
-  "require": {},
-  "scripts": {
-    "post-install-cmd": "touch hteassasa.txt"
-  }
+  "require": {}
 }
