@@ -13,5 +13,7 @@
   "autoload": {
     "psr-4": {"EasyPhpRest\\": "src/"}
   },
-  "require": {}
+  "require": {
+    "symfony/yaml": "*"
+  }
 }
